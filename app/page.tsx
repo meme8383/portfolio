@@ -1,9 +1,10 @@
-import { BlogPosts } from "app/components/posts";
+import Links from "./components/links";
+import { Projects } from "./components/projects";
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+      <h1 className="mb-8 text-3xl font-semibold tracking-tighter">
         Eduard Tanase
       </h1>
       <p className="mb-4">
@@ -11,9 +12,7 @@ export default function Page() {
         I am passionate about exploring the intersection of hardware and software, especially in Computational Neuroscience, 
         Embedded Systems, and Full-Stack Development. In my free time, I enjoy gaming, playing guitar, and working out.`}
       </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
+      <Links />
     </section>
   );
 }
