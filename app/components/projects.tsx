@@ -32,8 +32,21 @@ const projects: Project[] = [
   },
   {
     title: "Meepo Skateboard ARGB",
-    description: "Custom PCB for ARGB control and power on Meepo V3s.",
+    description: "Custom PCB for ARGB control and power conversion on the Meepo V3S electric skateboard.",
     github: "https://github.com/meme8383/board-lights",
+  },
+  {
+    title: "Deaf-i",
+    description:
+      "Deaf-i is a nonprofit for cochlear implant awareness and education.",
+    link: "https://www.deaf-i.org",
+    github: "https://github.com/meme8383/deaf-i",
+  },
+  {
+    title: "România Unită",
+    description:
+      "A website for Romanian citizens abroad to find nearby polling stations and learn about the candidates.",
+    link: "https://ro-election.vercel.app/",
   },
 ];
 
