@@ -32,7 +32,8 @@ const projects: Project[] = [
   },
   {
     title: "Meepo Skateboard ARGB",
-    description: "Custom PCB for ARGB control and power conversion on the Meepo V3S electric skateboard.",
+    description:
+      "Custom PCB for ARGB control and power conversion on the Meepo V3S electric skateboard.",
     github: "https://github.com/meme8383/board-lights",
   },
   {
@@ -47,6 +48,24 @@ const projects: Project[] = [
     description:
       "A website for Romanian citizens abroad to find nearby polling stations and learn about the candidates.",
     link: "https://ro-election.vercel.app/",
+  },
+  {
+    title: "dotfiles",
+    description: "My personal dotfiles for Linux.",
+    github: "https://github.com/meme8383/dotfiles",
+  },
+  {
+    title: "linesim",
+    description:
+      "A robot pathfinding simulator written in Python for Purdue's Intro to Engineering courses.",
+    link: "https://pypi.org/project/linesim/",
+    github: "https://github.com/meme8383/linesim",
+  },
+  {
+    title: "BTESW Discord bot",
+    description:
+      "A Discord bot for the Minecraft Build The Earth Southwest team's Discord server.",
+    github: "https://github.com/meme8383/locations-bot",
   },
 ];
 
@@ -63,7 +82,7 @@ export function Projects() {
           </p>
           <ul className="font-sm mt-1 flex flex-col space-x-0 space-y-2 text-neutral-600 md:flex-row md:space-x-4 md:space-y-0 dark:text-neutral-300">
             {project.link && (
-              <li>
+              <li key={project.link}>
                 <a
                   className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
                   rel="noopener noreferrer"
@@ -76,7 +95,7 @@ export function Projects() {
               </li>
             )}
             {project.github && (
-              <li>
+              <li key={project.github}>
                 <a
                   className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
                   rel="noopener noreferrer"
