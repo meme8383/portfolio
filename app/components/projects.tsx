@@ -23,13 +23,13 @@ type Project = {
 };
 
 const projects: Project[] = [
-  {
-    title: "TicketMango",
-    description:
-      "Flexible and simple ticket management system for shuttle services.",
-    link: "https://ticketmango.dev",
-    github: "https://github.com/meme8383/ticketmango",
-  },
+  // {
+  //   title: "TicketMango",
+  //   description:
+  //     "Flexible and simple ticket management system for shuttle services.",
+  //   link: "https://ticketmango.dev",
+  //   github: "https://github.com/meme8383/ticketmango",
+  // },
   {
     title: "Meepo Skateboard ARGB",
     description:
