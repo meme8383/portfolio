@@ -23,13 +23,18 @@ type Project = {
 };
 
 const projects: Project[] = [
-  // {
-  //   title: "TicketMango",
-  //   description:
-  //     "Flexible and simple ticket management system for shuttle services.",
-  //   link: "https://ticketmango.dev",
-  //   github: "https://github.com/meme8383/ticketmango",
-  // },
+  {
+    title: "ECELabs",
+    description:
+      "Digital design and verilog educational platform for Purdue ECE students.",
+    link: "https://alpha.ecelabs.io",
+  },
+  {
+    title: "Graphisophy",
+    description:
+      "(WIP) Fountain pen and ink wiki, collection platform, and community for pen enthusiasts.",
+    link: "https://www.graphisophy.com",
+  },
   {
     title: "Meepo Skateboard ARGB",
     description:
@@ -42,6 +47,13 @@ const projects: Project[] = [
       "Deaf-i is a nonprofit for cochlear implant awareness and education.",
     link: "https://www.deaf-i.org",
     github: "https://github.com/meme8383/deaf-i",
+  },
+  {
+    title: "TicketMango",
+    description:
+      "(Inactive) Flexible and simple ticketing app, specifically for shuttle services.",
+    link: "https://ticketmango.dev",
+    github: "https://github.com/meme8383/ticketmango",
   },
   {
     title: "România Unită",
