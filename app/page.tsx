@@ -8,9 +8,9 @@ export default function Page() {
         Eduard Tanase
       </h1>
       <p className="mb-4">
-        {`I'm a Computer Engineering student at Purdue University, currently interning at Leidos Dynetics. 
-        I am passionate about exploring the intersection of hardware and software, especially in Computational Neuroscience, 
-        Embedded Systems, and Full-Stack Development. In my free time, I enjoy gaming, playing guitar, and working out.`}
+        {`I'm Eduard Tanase, a senior at Purdue working on a combined B.S./M.S. in Computer Engineering. My projects bounce between full-stack development, computational neuroscience, and embedded systems.
+        I build websites like PointOrchard, a credit card comparison site that hit 2,000+ visitors in under a month, and ECELabs, a digital design platform used by every Computer Engineering student at Purdue.
+        In my research, I develop machine learning models to interpret mouse brain signals. I enjoy working on challenging projects and learning new things, as well as pursuing hobbies like playing guitar, cooking, and gaming.`}
       </p>
       <Links />
     </section>

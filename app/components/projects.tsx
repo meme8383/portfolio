@@ -24,9 +24,15 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "PointOrchard",
+    description:
+      "A credit card bonus tracking site that hit 2,000+ visitors in under a month.",
+    link: "https://www.pointorchard.com",
+  },
+  {
     title: "ECELabs",
     description:
-      "Digital design and verilog educational platform for Purdue ECE students.",
+      "Digital design and SystemVerilog educational platform for Purdue ECE students (Only accessible to Purdue ECE students).",
     link: "https://alpha.ecelabs.io",
   },
   {
@@ -47,13 +53,6 @@ const projects: Project[] = [
       "Deaf-i is a nonprofit for cochlear implant awareness and education.",
     link: "https://www.deaf-i.org",
     github: "https://github.com/meme8383/deaf-i",
-  },
-  {
-    title: "TicketMango",
-    description:
-      "(Inactive) Flexible and simple ticketing app, specifically for shuttle services.",
-    link: "https://ticketmango.dev",
-    github: "https://github.com/meme8383/ticketmango",
   },
   {
     title: "România Unită",
